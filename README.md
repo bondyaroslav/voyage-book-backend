@@ -5,36 +5,6 @@ It exposes two read-only endpoints, bootstraps seed data on first run, and follo
 
 ---
 
-## Table of Contents
-
-- [Features](#-features)
-- [Tech Stack](#-tech-stack)
-- [Project Structure](#-project-structure)
-- [API Contract](#-api-contract)
-    - [Endpoints](#endpoints)
-    - [Types](#types)
-    - [Response Examples](#response-examples)
-- [Getting Started](#-getting-started)
-    - [Prerequisites](#prerequisites)
-    - [Installation](#installation)
-    - [Environment](#environment)
-    - [Run (Development)](#run-development)
-    - [Build & Run (Production)](#build--run-production)
-    - [Mongo via Docker (Optional)](#mongo-via-docker-optional)
-- [Seeding](#-seeding)
-- [Data Model](#-data-model)
-- [Security & Reliability (Enterprise Notes)](#-security--reliability-enterprise-notes)
-- [Testing (Suggested)](#-testing-suggested)
-- [CI/CD (Suggested GitHub Actions)](#-cicd-suggested-github-actions)
-- [Operational Tips](#-operational-tips)
-- [Production Checklist](#-production-checklist)
-- [Scripts (example)](#-scripts-example)
-- [License](#-license)
-- [Contributing](#-contributing)
-- [FAQ](#faq)
-
----
-
 ## ✨ Features
 
 - 🧩 **Clear layering** — `routes → controllers → models`; `config` for infra; `seeds` for data init
